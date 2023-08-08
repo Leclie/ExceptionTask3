@@ -30,12 +30,10 @@ public class Main {
                 throw new IllegalArgumentException("Неверный формат даты рождения");
             }
 
-            // Проверка формата номера телефона
             if (!phoneNumber.matches("\\d+")) {
                 throw new IllegalArgumentException("Неверный формат номера телефона");
             }
 
-            // Проверка формата пола
             if (!gender.matches("[fm]")) {
                 throw new IllegalArgumentException("Неверный формат пола");
             }
